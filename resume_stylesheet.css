@@ -1,90 +1,88 @@
 #header {
     border-radius:5px;
-    background-color: red;
+    background-color: white;
     height:60px;
     margin-top: 5px;
     margin-bottom: 10px;
     text-align:center;
     z-index:1;
     width:98%;
-    position:fixed;
     
 }
 
-h2:first-child {
-    color:white;
-    text-align:left;
-    margin-left: 5px;
-}
-
-h2:nth-child(2) {
-    color:white;
-    text-decoration:none;
-    text-align:right;
-    margin-right:5px;
-    margin-top:-48px;
-}
-
-#footer {
-    border-radius:5px;
-    background-color: yellow;
-    height:60px;
-    clear:both;
-    position:relative;
+h1:first-child {
+    color:navy;
     text-align:center;
-    color: black;
-    font-family: cursive;
+    text: Cambria;
 }
 
-a:hover {
-	font-weight: bold;
+
+h1:nth-child(2) {
+    color:navy;
     text-decoration:none;
-    color:yellow;
-}
-
-.left {
-    border-radius:5px;
-    background-color: green;
-    float:left;
-    width:11%;
-    height:525px;
-    margin-top:80px;
-    margin-bottom:10px;
     text-align:center;
 }
 
-
-.right {
-    border-radius:5px;
-    background-color: purple;
-    float:right;
-    width:87%;
-    height:525px;
-    margin-top:80px;
-    margin-bottom:10px;
-    text-align:left;
+h1:nth-child(3) {
+    color: navy;
+    text-align: center;
 }
 
-h4 {
-    font-family: Cambria;
-    color:#00FFFF;
-    margin-left:10px;
-    font-size:25px;
-    margin-top:10px;
+
+#page {
+    margin-top: 150px;
+    background-color: black;
+    float: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-p {
-    font-family: Cambria;
-    color:#FFFFFF;
-    margin-left:10px;
-    margin-top:-25px;
-    margin-bottom:40px;
-    font-size:17px;
+.head {
+    font-family: Impact;
+    font-size: 40px;
+    color: PaleGreen;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 75px;
+    background-position: center
 }
 
-ul {
-    margin-top:-25px;
-    margin-bottom:40px;
-    color:#EEA000;
-    font-family: Harrington;
+li{
+    list-style-position: inside;
+    text-align: left;
+    text-indent: 50px;
+    font-family: "Arial";
+    font-size: 21px;
+    color:MediumSpringGreen;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-left: 1em;
+    list-style-position: outside;
+}
+
+.indent {
+    margin-left: 5em;
+}
+
+.job{
+    font-style: em;
+    color: bisque;
+
+}
+
+.language {
+    color: MediumSpringGreen;
+    text-align: left;
+    text-indent: 50px;
+    font-family: "Arial";
+    font-size: 21px;
+}
+
+a:link{
+    color:;
+}
+
+a:visited{
+    color:white;
 }
