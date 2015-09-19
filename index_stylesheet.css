@@ -1,4 +1,28 @@
 #header {
-	color: blue;
+}
 
+h2:first-child {
+	color: aqua;
+
+}
+
+h2:nth-child(2){
+	color: green;
+
+}
+
+h2:nth-child(3){
+	color:blue;
+
+
+}
+
+a:hover{
+	font-weight:bold;
+	text-decoration:none;
+	color:yellow;
+}
+
+a:visited{
+	color:black;
 }
