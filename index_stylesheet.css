@@ -1,19 +1,26 @@
 #header {
 }
 
-h2:first-child {
-	color: aqua;
+h1 {
+	font-family: "Georgia";
+	font-variant: small-caps;
+	color: DarkSlateBlue;
+	text-align: center;
+	font-size: 50px;
 
 }
 
-h2:nth-child(2){
-	color: green;
-
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-h2:nth-child(3){
-	color:blue;
-
+h2 {
+	color: yellow;
+	font-family: "Trebuchet MS";
+	text-align: center;
+	font-size: 30px;
 
 }
 
@@ -24,5 +31,5 @@ a:hover{
 }
 
 a:visited{
-	color:black;
+	color:DeepPink;
 }

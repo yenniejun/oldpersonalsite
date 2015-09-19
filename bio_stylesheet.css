@@ -3,6 +3,9 @@ head {
 
 }
 
+body {
+	background-image: url("pug_with_glasses.jpg");
+}
 
 #title {
 	font-size: 34px;
