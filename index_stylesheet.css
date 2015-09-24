@@ -1,24 +1,28 @@
-#header {
+body {
+	display: inline-block;
+	font-family: 'Shadows Into Light Two', cursive;	color: DarkSlateBlue;
+
+}
+
+.header {
+	display: inline-block;
+	border: dotted;
+	text-align: center;	
 }
 
 h1 {
-	font-family: "Georgia";
-	font-variant: small-caps;
-	color: DarkSlateBlue;
 	text-align: center;
 	font-size: 50px;
 
 }
 
 img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: inline-block;
+	float: center;
 }
 
 h2 {
 	color: yellow;
-	font-family: "Trebuchet MS";
 	text-align: center;
 	font-size: 30px;
 
