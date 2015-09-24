@@ -1,13 +1,16 @@
 head {
 	background-color: MidnightBlue;
 
-}
 
-body {
-	background-image: url("pug_with_glasses.jpg");
 }
 
 #title {
+	font-size: 35px;
+	font-family:Comic Sans MS;
+	color: DodgerBlue;
+}
+
+#name {
 	font-size: 34px;
 	font-family: Comic Sans MS;
 	color: Indigo;

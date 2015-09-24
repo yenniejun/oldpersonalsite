@@ -1,94 +1,112 @@
 body{
-    background-color: black;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Amatic SC', cursive;
 }
 
 #header {
-    border-radius:5px;
-    background-color: black;
-    height:60px;
+    border-radius:1em;
+    background-color: white;
+    display: inline-block;
+    font-variant: small-caps;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
     text-align:center;
     z-index:1;
     width:98%;
+    height: 98%;
     
 }
 
-h1:first-child {
-    color:white;
-    text-align:center;
-    text: Cambria;
-}
-
-
-h1:nth-child(2) {
-    color:white;
-    text-decoration:none;
-    text-align:center;
-}
-
-h1:nth-child(3) {
-    color: white;
+h1 {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
     text-align: center;
 }
 
 
-#page {
+.page {
     margin-top: 150px;
-    background-color: black;
+    padding: 3em;
+    background-color: white;
+    border: groove;
+    border-color: indigo;
+    display: inline-block;
     float: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 4em;
 }
 
 .head {
-    font-family: Impact;
-    font-size: 40px;
-    color: PaleGreen;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
     text-align: left;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    margin-top: 75px;
-    background-position: center
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    background-position: center;
+    padding: .2em;
+    text-shadow: -1px -1px #aa3030;
 }
 
-li{
+.school{
     list-style-position: inside;
     text-align: left;
-    text-indent: 50px;
-    font-family: sans-serif;
+    text-indent: 3.1em;
     font-variant: small-caps;
-    font-size: 25px;
-    color:MediumSpringGreen;
-    margin-right: 50px;
-    margin-top: 15px;
-    margin-left: 1em;
-    list-style-position: outside;
+    font-size: 2.5em;
+    color: black;
 }
 
-.indent {
-    margin-left: 5em;
+.honors{
+    font-color: purple;
+    font-size: 2.2em;
+    text-indent: 4em;
+
 }
 
-.job{
-    font-style: em;
-    color: bisque;
+.skills{
+    font-size:2.2em;
+    text-indent: 4em;
 
+}
+
+.jobtitle{
+    font-size:2.2em;
+    text-decoration: underline;
+    text-indent: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.job_desc{
+    font-size:1.8em;
+    text-indent: 8em;
 }
 
 .language {
-    color: MediumSpringGreen;
-    text-align: left;
-    text-indent: 50px;
-    font-family: sans-serif;
-    font-variant: small-caps;
-    font-size: 25px;
+    font-size:2.2em;
+    text-indent: 4em;
+
+}
+
+.activity {
+    font-size:2.2em;
+    text-indent: 4em;   
 }
 
 a:link{
-    color:#CCFF99;
+    color: black;
 }
 
 a:visited{
-    color:white;
+    color: black;
+}
+
+a:hover{
+    color: mediumspringgreen;
 }
