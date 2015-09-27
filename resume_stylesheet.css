@@ -34,7 +34,6 @@ h1 {
     border: groove;
     border-color: indigo;
     display: inline-block;
-    float: center;
     margin-bottom: 4em;
 }
 
@@ -62,14 +61,20 @@ h1 {
 }
 
 .honors{
-    font-color: purple;
     font-size: 2.2em;
-    text-indent: 4em;
+    text-indent: 6em;
 
+}
+
+.courses {
+    font-size: 1.5em;
+    text-indent: 10em;
+    list-style-position: inside;
 }
 
 .skills{
     font-size:2.2em;
+    list-style-position: inside;
     text-indent: 4em;
 
 }
@@ -78,6 +83,7 @@ h1 {
     font-size:2.2em;
     text-decoration: underline;
     text-indent: 4em;
+    list-style-position: inside;
     margin-top: 1em;
     margin-bottom: 1em;
 
@@ -85,6 +91,12 @@ h1 {
 
 .job_desc{
     font-size:1.8em;
+    text-indent: 8em;
+    list-style-position: inside;
+}
+
+.job_date {
+    font-size: 1.8em;
     text-indent: 8em;
 }
 
@@ -96,6 +108,7 @@ h1 {
 
 .activity {
     font-size:2.2em;
+    list-style-position: inside;
     text-indent: 4em;   
 }
 
