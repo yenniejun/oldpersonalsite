@@ -21,6 +21,7 @@ head {
     width:100px;
     float: left;
     text-align: center;
+    text-decoration: bold;
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
     margin: 1em;
@@ -45,5 +46,9 @@ a:link {
 }
 
 a:visited{
-	color: #333366;
+	color: white;
+}
+
+a:hover {
+	color: #336666;
 }
