@@ -41,14 +41,18 @@ head {
 	width: 70%;
 	}
 
+img{
+	display: inline-block;
+}
+
 a:link {
-	color: white;
+	color: #336666;
 }
 
 a:visited{
-	color: white;
+	color: #333366;
 }
 
 a:hover {
-	color: #336666;
+	color: white;
 }

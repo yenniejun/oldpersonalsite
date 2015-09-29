@@ -12,7 +12,7 @@ bio.html - my very sparse bio. Again, I used fonts from Google Fonts.
 
 All three of these html files are paired with a css stylesheet. In the stylesheets I color the fonts, center the texts and blocks and images, and design my webpage in a sort-of aesthetically pleasing way. (not that aesthetically pleasing but I'm working on it)
 
-I correctly implemented the above. Some of the formatting is not as precise as I would like (such as the block formatting). However, I managed to make a simplistic personal website. 
+I correctly implemented the above. Some of the formatting is not as precise as I would like (such as the block formatting or image resizing). However, I managed to make a simplistic personal website. 
 
 I did not collaborate with anyone. I spent 15-20 hours on this assignment (I spent more time than I would like to admit looking up fonts and colors)
 
