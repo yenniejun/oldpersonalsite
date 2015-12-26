@@ -1,33 +1,53 @@
-body {
-	font-family: 'Shadows Into Light Two', cursive;	color: DarkSlateBlue;
-
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
 }
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #D1CAB0;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+
+
 
 #header {
 	padding: 5px;
-	background-color: #B3B3D7;
-	//000078
-	//D1CAB0
 	margin: .4em;
 }
 
-#section {
-	padding-top:80px;
-	padding-left:15%;
-	padding-right:10px;
-	height:100vh;
+.entire {
 	background-color: #B3B3D7;
+
 }
 
 #aboutme {
-	float: left;
 	font-size: 20px;
 	font-family: 'Poiret One', cursive;
 	font-weight: bold;
-	padding-top: 30px;
-	padding-left: 5px;
-	padding-right: 10px;
 	text-align: center;
+
 }
 
 #links {
@@ -36,7 +56,6 @@ body {
 	font-family: 'Poiret One', cursive;
 	float: bottom;
 	text-align: center;
-	padding-top: 550px;
 
 }
 
@@ -46,19 +65,16 @@ h1 {
 	color: white;
 }
 
-#image {
-	display: inline-block;
-	float: right;
-	padding-right:25%;
+#image_xs {
+	padding-left:500px;
 	padding-top:100px;
-	height:100vh;
-	background-color: #B3B3D7;
+	height: 600px;
 }
 
-img {
-	height: 40%;
-
+#image {
+	height: 80%;
 }
+
 
 h2 {
 	color: black;
@@ -73,12 +89,11 @@ a:hover{
 }
 
 a:visited{
-	color:#000078;
+	color:white;
 	font-weight: bold;
 }
 
 #title {
-	//font-family: 'Indie Flower', cursive;	
 	font-family: 'Poiret One', cursive;
 	font-size: 70px;
 	font-weight: bold;
