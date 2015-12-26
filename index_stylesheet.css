@@ -4,48 +4,59 @@ body {
 }
 
 #header {
-	text-align: center;	
 	padding: 5px;
 	background-color: #B3B3D7;
+	//000078
+	//D1CAB0
 	margin: .4em;
 }
 
-#links {
-	display: inline-block;
-	line-height:30px;
-    background-color:#000078;
-    height:1000px;
-    width:100px;
-    float:left;
-    padding:5px;
-    margin: .4em;
-    text-indent: 1em;
-    text-align: left;
-
-}
-
-
 #section {
-	display: inline-block;
-	background-color: #D1CAB0;
-	height: 1000px;
-	width: 84.8%;
-    padding:5px;
-    margin: .4em;
-
+	padding-top:80px;
+	padding-left:15%;
+	padding-right:10px;
+	height:100vh;
+	background-color: #B3B3D7;
 }
 
+#aboutme {
+	float: left;
+	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-left: 5px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+#links {
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Poiret One', cursive;
+	float: bottom;
+	text-align: center;
+	padding-top: 550px;
+
+}
 
 h1 {
-	text-align: left;
 	text-indent: 10px;
 	font-size: 2em;
 	color: white;
 }
 
+#image {
+	display: inline-block;
+	float: right;
+	padding-right:25%;
+	padding-top:100px;
+	height:100vh;
+	background-color: #B3B3D7;
+}
+
 img {
-	display: block;
-	width: 50%;
+	height: 40%;
 
 }
 
@@ -62,13 +73,26 @@ a:hover{
 }
 
 a:visited{
-	color:#D1CAB0;
+	color:#000078;
+	font-weight: bold;
 }
 
-#sectionheader {
-	font-size: 2em;
+#title {
+	//font-family: 'Indie Flower', cursive;	
+	font-family: 'Poiret One', cursive;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	
 }
 
 h3 {
 	color: black;
 }
+
+#mynavbar {
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Poiret One', cursive;
+}
+

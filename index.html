@@ -3,27 +3,58 @@
 	<head>
 		<link type="text/css" rel="stylesheet" href="index_stylesheet.css"/>
 		<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
-		<title>RESUME</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=true" type="text/javascript"> </script>
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<title>Yennie Jun Personal Website</title>
 	</head>
+
 	<body>
-		<div id = "header">
-			<h1>YENNIE JUN</h1>
-		</div>
-		<div id = "links">	
-			<h1 class = "linkstitle"> Links </h1>
-			<h2><a href = "resume.html">RESUME</a></h2>
-			<h2><a href = "bio.html">BIO</a></h2>
+		<nav class="navbar navbar-inverse navbar-fixed-top" id ="mynavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html"><span class="glyphicon glyphicon-home" id="ppicon"></span></a></li>
+				<li><a href = "resume.html">Resume</a></li>
+				<li><a href = "portfolio.html">Portfolio</a></li>		
+				<li><a href = "blog.html">Blog</a></li>			
+				<li><a href = "contact.hml">Contact</a></li>
 
-
-
-		</div>
-
-		<div id = "section">
-			<h3 id = "sectionheader"> Welcome to my webpage! </h3>
-			<img src = "Levitation.jpg" alt = "Levitation photo of Yennie"> 
-			<h3 > Content under construction! </h3>
+   			</ul>
+		</nav>
 
 		</div>
 
+
+	<div class = "container-fluid">
+		<div class = "row">
+			<div class="col-sm-4" id = "image">
+				<img src = "myface.jpg" alt = "Yennie Jun photo"> 
+			</div>
+		    <div class="col-sm-8" id = "section">
+				<h1 id = "title">Yennie Jun</h1>
+				<div id = "aboutme">
+					<p>I am a Junior at <a href = "http://www.tufts.edu/" target = "_blank">Tufts University</a> studying computer science. I will be graduating in May 2017. </p>
+					<p>I am originally from Baton Rouge, Louisiana.</p>
+					<p>My hobbies include playing the flute and piano, reading, writing poetry and short stories, running, and biking.</p>
+					<p>I will be abroad in Hong Kong spring semester of 2016. Check out my blog!</p>
+				</div>
+				<div id = "links">
+					<div>	
+						<h1>Links
+							<i class="fa fa-facebook-square"></i>
+							<i class="fa fa-github-square"></i>
+							<i class="fa fa-youtube-square"></i>
+							<i class="fa fa-linkedin-square"></i></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 	</body>
 </html>
