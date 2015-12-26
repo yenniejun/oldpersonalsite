@@ -21,7 +21,7 @@
 
 #contacts {
 	border-radius: 25px;
-    background: #D1CAB0;
+    background: #f1f1f1;
     width: 500px;
     height: 150px; 
     margin: 0px auto;
@@ -39,5 +39,5 @@
 #links {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
-	color: #D1CAB0;
+	color: #f1f1f1;
 }
