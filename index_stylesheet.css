@@ -1,114 +1,21 @@
-/* Remove the navbar's default margin-bottom and rounded borders */ 
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
+body, html {
+	height: 100%;
 }
 
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 450px}
-
-/* Set gray background color and 100% height */
-.sidenav {
-  padding-top: 20px;
-  background-color: #f1f1f1;
-  height: 100%;
-}
-
-/* Set black background color, white text and some padding */
-footer {
-  background-color: #555;
-  color: white;
-  padding: 15px;
-}
-
-/* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
-  .sidenav {
-    height: auto;
-    padding: 15px;
-  }
-
-.row.content {height:auto;} 
-}
-
-
-
-#header {
-	padding: 5px;
-	margin: .4em;
-}
-
-.entire {
-	background-color: #B3B3D7;
-
-}
-
-#aboutme {
-	font-size: 20px;
-	font-family: 'Poiret One', cursive;
-	font-weight: bold;
-	text-align: center;
-
-}
-
-#links {
-	font-weight: bold;
-	font-size: 25px;
-	font-family: 'Poiret One', cursive;
-	float: bottom;
-	text-align: center;
-
-}
-
-h1 {
-	text-indent: 10px;
-	font-size: 2em;
-	color: white;
-}
-
-#image_xs {
-	padding-left:500px;
-	padding-top:100px;
-	height: 600px;
-}
-
-#image {
-	height: 80%;
-}
-
-
-h2 {
-	color: black;
-	font-size: 1.3em;
-
-}
-
-a:hover{
-	font-weight:bold;
-	text-decoration:none;
-	color:#AA0078;
-}
-
-a:visited{
-	color:white;
-	font-weight: bold;
+body {
+	background-image: url('Images/pilchuck.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position-x: 20%;*/
+	overflow-x: hidden;
+	height: 100%;
+	background-position: center;
 }
 
 #title {
-	font-family: 'Poiret One', cursive;
-	font-size: 70px;
-	font-weight: bold;
+	font-size: 9rem;
+	padding-top: 10rem;
+	font-family: 'Bungee', cursive;
+	color: white;
 	text-align: center;
-	
 }
-
-h3 {
-	color: black;
-}
-
-#mynavbar {
-	font-weight: bold;
-	font-size: 25px;
-	font-family: 'Poiret One', cursive;
-}
-
