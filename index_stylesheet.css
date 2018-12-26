@@ -30,15 +30,15 @@ img {
 }
 
 a:link {
-	color: black;
+	color: white;
 }
 
 a:visited {
-	color: black;
+	color: white;
 }
 
 a:hover {
-	color: white;
+	color: #d0d0e1;
 }
 
 #strip {
