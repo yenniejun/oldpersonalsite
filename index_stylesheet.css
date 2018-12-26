@@ -39,7 +39,7 @@ img {
 }
 
 #strip a:hover {
-	color: #d0d0e1;
+	color: #b3b3cc;
 }
 
 #strip {
@@ -51,16 +51,15 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	display: inline-flex;
-	padding-top: 5rem;
 }
 
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
 
     #strip i {
-    	padding-top: 11rem;
+    	margin-top: 11rem;
     	font-size: 45px;
-    	padding-left: 2rem;
+    	margin-left: 2rem;
 
     }
 
@@ -74,12 +73,12 @@ img {
     }
 
     #strip i {
-    	padding-top: 7rem;
+    	margin-top: 7rem;
     	font-size: 36px;
-   		padding-left: 1rem;
-
+   		margin-left: 1rem;
     }
 
+    
 }
 
 
@@ -88,4 +87,16 @@ img {
 	font-family: 'Atma', cursive;
 	font-size: 1.2rem;
 	color: white;
+}
+
+#blurb span {
+	display: block;
+}
+
+#blurb a {
+	color: #b3b3cc !important;
+}
+
+#blurb a:hover {
+	font-weight: bold;
 }
