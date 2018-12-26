@@ -29,15 +29,16 @@ img {
 	/*transform: rotate(90deg);*/
 }
 
-a:link {
+#strip a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#strip a:visited {
 	color: white;
 }
 
-a:visited {
-	color: white;
-}
-
-a:hover {
+#strip a:hover {
 	color: #d0d0e1;
 }
 
@@ -67,6 +68,11 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
     /* phones */
+
+    #title {
+    	font-size: 3rem;
+    }
+
     #strip i {
     	padding-top: 7rem;
     	font-size: 36px;
@@ -74,4 +80,12 @@ a:hover {
 
     }
 
+}
+
+
+#blurb {
+	margin-top: 4rem;
+	font-family: 'Atma', cursive;
+	font-size: 1.2rem;
+	color: white;
 }
