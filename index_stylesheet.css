@@ -26,7 +26,6 @@ body {
 
 img {
 	height: 50px;
-	/*transform: rotate(90deg);*/
 }
 
 #strip a:link {
@@ -94,9 +93,10 @@ img {
 }
 
 #blurb a {
-	color: #b3b3cc !important;
+	color: #75145E !important;
 }
 
 #blurb a:hover {
 	font-weight: bold;
+	color: #b3b3cc !important;
 }
