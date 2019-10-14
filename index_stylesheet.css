@@ -38,7 +38,8 @@ img {
 }
 
 #strip a:hover {
-	color: #b3b3cc;
+	color: purple;
+	/*color: #b3b3cc;*/
 }
 
 #strip {

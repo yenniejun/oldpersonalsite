@@ -1,0 +1,65 @@
+#menu {
+	color: white;
+	font-family: 'Atma', cursive;
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+	#menu {
+		float: right;
+	    margin: 2rem 4rem;
+	    font-size: 1.1rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+
+    #menu {
+    	text-align:center;
+    	padding-top: 2rem;
+    	padding-left: 1rem;
+    	padding-right: 1rem;
+
+    }
+}
+
+
+#menu a:link {
+	color: white !important;
+	text-decoration: none !important;
+}
+
+#menu a:visited {
+	color: white;
+}
+
+#menu a:hover {
+	color: #FFDEAD !important;
+	text-decoration: : underline;
+}
+
+body, html {
+	height: 100%;
+	margin:unset;
+}
+
+#section-title {
+	color: white;
+	font-family: 'Atma', cursive;
+	text-align: center;
+	padding-top: 8rem;
+	font-size: 3rem;
+}
+
+#section-blurb{
+	color: white;
+	font-family: 'Atma', cursive;
+	text-align: center;
+}
+
+#section-content{
+	color: white;
+	font-family: 'Atma', cursive;
+	text-align: center;
+}
