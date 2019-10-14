@@ -21,6 +21,11 @@
     	padding-left: 1rem;
     	padding-right: 1rem;
     }
+
+    #section-title {
+		padding-top: 3rem !important;
+	}
+
 }
 
 
@@ -47,7 +52,7 @@ body, html {
 	color: white;
 	font-family: 'Atma', cursive;
 	text-align: center;
-	padding-top: 8rem;
+	padding-top: 6rem;
 	font-size: 3rem;
 }
 
