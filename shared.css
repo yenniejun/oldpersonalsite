@@ -74,19 +74,43 @@ body, html {
 	text-align: center;
 }
 
-#footer {
-	height: 3rem;
-}
+.project-border {
+	height: 10rem;
+    width: 10rem;
+    border: 2px solid black;
+    margin: 3rem;
+    text-align: center;
+    background: white;
 
-#blocks {
-	display: inline-flex;
 }
 
 .project {
 	height: 10rem;
     width: 10rem;
-    border: 2px solid black;
-    background: white;
-    margin: 3rem;
-	}
+    background-size: cover;
+}
+
+.project:hover {
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
+}
+
+#blocks {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+#blocks:hover p {
+	color: #333333;
+}
+
+.img-text {
+	position: absolute;
+	top: 40%;
+	text-align: center;
 }
