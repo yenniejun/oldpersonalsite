@@ -103,6 +103,7 @@ body, html {
 	align-content: center;
 	margin-left: 3rem;
 	margin-right: 3rem;
+	margin-bottom: 3rem;
 }
 
 #blocks:hover p {
