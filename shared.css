@@ -88,6 +88,11 @@ body, html {
 	height: 10rem;
     width: 10rem;
     background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	overflow: hidden;
 }
 
 .project:hover {
