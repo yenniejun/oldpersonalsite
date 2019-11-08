@@ -1,6 +1,31 @@
-#menu {
-	color: white;
-	font-family: 'Atma', cursive;
+body {
+	background-color: #FFFAF1;
+	font-family: monospace;
+	color: #333333;
+}
+
+a:link {
+	color: #333333 !important;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333333;
+}
+
+a:hover {
+	color: #05C9C9 !important;
+	text-decoration: : underline;
+}
+
+#main-title {
+	font-size: 3rem;
+	padding-top: 7rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	font-family: 'Major Mono Display', monospace;
+	color: #333333;
+	text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -8,12 +33,15 @@
 	#menu {
 		float: right;
 	    margin: 2rem 4rem;
-	    font-size: 1.1rem;
-	}
+s	}
 }
 
 @media only screen and (max-width: 767px) {
     /* phones */
+    #main-title {
+    	font-size: 2.5rem;
+    	padding-top: 5.5rem;
+    }
 
     #menu {
     	text-align:center;
@@ -28,51 +56,37 @@
 
 }
 
-
-#menu a:link {
-	color: white !important;
-	text-decoration: none !important;
-}
-
-#menu a:visited {
-	color: white;
-}
-
-#menu a:hover {
-	color: #FFDEAD !important;
-	text-decoration: : underline;
-}
-
 body, html {
 	height: 100%;
 	margin:unset;
 }
 
-#section-title {
-	color: white;
-	font-family: 'Atma', cursive;
+.section-title {
+	color: #333333;
 	text-align: center;
 	padding-top: 6rem;
 	font-size: 3rem;
 }
 
-#section-blurb{
-	color: white;
-	font-family: 'Atma', cursive;
-	text-align: center;
-}
-
-#section-content{
-	color: white;
-	font-family: 'Atma', cursive;
-	text-align: center;
-}
-
-.stars {
-	color:#C0C0C0;
+.content {
+	font-family: monospace;
+	margin: 3rem;
 	text-align: center;
 }
 
 #footer {
 	height: 3rem;
+}
+
+#blocks {
+	display: inline-flex;
+}
+
+.project {
+	height: 10rem;
+    width: 10rem;
+    border: 2px solid black;
+    background: white;
+    margin: 3rem;
+	}
 }
