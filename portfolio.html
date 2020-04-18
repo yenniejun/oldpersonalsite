@@ -4,25 +4,18 @@
 	<meta name="description" content="Writing page for Yennie Jun">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link type="text/css" rel="stylesheet" href="shared.css"/>
-
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans:300&display=swap" rel="stylesheet">
 	<title>Yennie's Portfolio</title>
-
-	<style>
-		img {
-			max-width: 100%;
-			max-height: 100%;
-			text-align: center;
-		}
-
-	</style>
 
 	<div id="menu">
 		<a href="index.html">Home</a>
-		/ 
+		|
 		<a href="portfolio.html" style="text-decoration:underline !important;">Portfolio</a> 
-		/ 
+		| 
+		<a href="writing.html">Writing</a>
+		|
 		<a href="resume.html">Resume</a> 
-		/ 
+		|
 		<a href="contact.html">Contact</a>
 	</div>
 </head>
@@ -32,53 +25,66 @@
 
 	<div class = "content">
 		<p>Some of my work-in-progress projects.</p> 
-		<p>Some of these projects are serious; others are more whimsical and created for learning, aesthetic, or practice reasons.</p>
+
 		<p>All code can be found on my <b><u><a href="https://github.com/yenniejun" target="_blank">GitHub</a></u></b>.</p>
 	</div>
 
-	<div id="blocks">
+	<div class="panel-container">
 
-		<div class="project-border">
-			<a href="https://github.com/yenniejun/music-factorization" target="_blank">
-				<div class="project" style="background-image:url(Images/projects-music.png)"></div>
-				<p>Music factorization by analyzing scale pattern</p>
-			</a>
+		<div class="panel">
+			<a href="https://github.com/yenniejun/covid-texting-service" target="_blank"><img class="project-border" src="Images/projects-covid.png" alt="Covid texting project">
+			<h1>Covid Texting Service</h1></a>
+			<p>Texting service with the latest COVID-19 updates for those without access to Internet.</p>
+			<p style="font-size:1.5rem"><b>Demo: Text +12252692499 with "HELLO"</b></p>
+			<p>Built Using: Python, Twilio, Flask, Heroku</p>
 		</div>
 
-		<div class="project-border">
-			<a href="https://github.com/yenniejun/JoseonMunkwa" target="_blank">
-				<div class="project" style="background-image:url(Images/projects-sillok.jpg)"></div>
-				<p>Analyze Korean aristocratic historical figures and civil service officials</p>
-			</a>
+		<div class="panel">
+			<a href="https://github.com/yenniejun/JoseonMunkwa" target="_blank"><img class="project-border" src="Images/projects-sillok.jpg" alt="Sillok project">
+			<h1>Joseon Munkwa Project</h1></a>
+			<p>Analyze Korean aristocratic historical figures and civil service officials and perform disambiguation on historical records.</p>
+			<p>This is part of the work I am doing with the Big Data Studies Lab at Seoul National University.</p>
+			<p>Analysis using: pandas, numpy, matplotlib, postgreSQL</p>
 		</div>
 
-		<div class="project-border">
-			<a href="https://bl.ocks.org/yenniejun/fcebec9f697ab714d09a4e479ba54f44" target="_blank">
-				<div class="project" style="background-image:url(Images/projects-flower.png)"></div>
-				<p>Animate simple flower using D3</p>
-			</a>
+		<div class="panel">
+			<a href="https://github.com/yenniejun/internetcafe" target="_blank"><img class="project-border" src="Images/projects-cafe.jpg" alt="Cafe project">
+			<h1>Internet Cafe</h1></a>
+			<p>Virtual coffeeshop experience for those of us stuck at home during stay-at-home and seeking the vibe and comradeship of a cafe.</p>
+			<p>Built Using: Node.js, React, Express, socket.io, postgreSQL</p>
+		</div>
+		
+
+		<div class="panel">
+			<a href="https://github.com/yenniejun/music-factorization" target="_blank"><img class="project-border" src="Images/projects-music.png" alt="Music project">
+			<h1>Music Factorization</h1></a>
+			<p>"Factorize" a scale into parts that can be understood using combinations of "symmetric" scales.</p>
+			<p>Built Using: Python</p>
 		</div>
 
-		<div class="project-border">
-			<a href="https://bl.ocks.org/yenniejun/e8675d648f5c01b2b704de9d63877a4a" target="_blank">
-				<div class="project" style="background-image:url(Images/projects-populationBubbles.png)"></div>
-				<p>Depict city populations using D3</p>
-			</a>
+		<div class="panel">
+			<a href="https://github.com/yenniejun/whichwhiteguy/blob/master/lesson4-gutenberg.ipynb" target="_blank"><img class="project-border" src="Images/projects-gutenberg.png" alt="Whiteguy project">
+			<h1>Which White Guy?</h1></a>
+			<p>Determine which male white writer from the 19/20th century your writing most resembles using basic NLP models.</p>
+			<p>Built Using: fastai</p>
 		</div>
 
-		<div class="project-border">
-			<a href="https://vimeo.com/363318751" target="_blank">
-				<div class="project" style="background-image:url(Images/projects-spam.png)"></div>
-				<p>Simple image classifier using fastai</p>
-			</a>
+		<div class="panel">
+			<a href="https://vimeo.com/363318751" target="_blank"><img class="project-border" src="Images/projects-spam.png" alt="Spam project">
+			<h1>Spam Classifier</h1></a>
+			<p>Simple image classifier</p>
+			<p>Built Using: fastai</p>
 		</div>
 
-		<div class="project-border">
-			<a href="https://github.com/yenniejun/whichwhiteguy/blob/master/lesson4-gutenberg.ipynb" target="_blank">
-				<div class="project" style="background-image:url(Images/gutenberg.png)"></div>
-				<p>Determine which male white writer from the 19/20th century your writing resembles</p>
-			</a>
+		<div class="panel">
+			<a href="https://bl.ocks.org/yenniejun/fcebec9f697ab714d09a4e479ba54f44"><img class="project-border" src="Images/projects-flower.png" alt="Flower project">
+			<h1>Animated flower</h1></a>
+			<p>Animate simple flower</p>
+			<p>Built Using: D3, SVG</p>
 		</div>
+
+	</div>
+
 
 
 	</div>

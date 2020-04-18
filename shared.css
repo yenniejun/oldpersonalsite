@@ -1,6 +1,6 @@
 body {
 	background-color: #FFFAF1;
-	font-family: monospace;
+	font-family: 'Amatic SC', cursive;
 	color: #333333;
 }
 
@@ -19,106 +19,140 @@ a:hover {
 }
 
 #main-title {
-	font-size: 3rem;
-	padding-top: 7rem;
+	font-size: 5rem;
+	padding-top: 5rem;
 	margin-left: 3rem;
 	margin-right: 3rem;
-	font-family: 'Major Mono Display', monospace;
+	font-family: 'Amatic SC', cursive;
+
+
 	color: #333333;
 	text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
-    /* tablets and desktop */
-	#menu {
-		float: right;
-	    margin: 2rem 4rem;
-s	}
+#menu {
+	margin: 0 auto;
+	margin-top: 2rem;
+	width: 100%;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (max-width: 767px) {
-    /* phones */
-    #main-title {
-    	font-size: 2.5rem;
-    	padding-top: 5.5rem;
-    }
-
-    #menu {
-    	text-align:center;
-    	padding-top: 2rem;
-    	padding-left: 1rem;
-    	padding-right: 1rem;
-    }
-
-    #section-title {
-		padding-top: 3rem !important;
-	}
-
-}
-
-body, html {
-	height: 100%;
-	margin-left: 6rem;
-	margin-right:6rem;
-}
 
 .section-title {
 	color: #333333;
 	text-align: center;
 	padding-top: 6rem;
-	font-size: 3rem;
+	font-size: 5rem;
 }
 
 .content {
-	font-family: monospace;
-	margin: 3rem;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1.5rem;
+	margin-left: 10rem;
+	margin-right:10rem;
+	margin-top: 3rem;
 }
 
 .project-border {
-	height: 10rem;
-    width: 10rem;
+	height: 13rem;
+    width: 13rem;
     border: 2px solid black;
-    margin: 3rem;
     text-align: center;
     background: white;
 
 }
 
-.project {
-	height: 10rem;
-    width: 10rem;
-    background-size: cover;
-    background-position: center center;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	overflow: hidden;
-}
-
-.project:hover {
+.project-border:hover {
 	opacity: 0.5;
   	filter: alpha(opacity=50);
 }
 
-#blocks {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	margin-left: 3rem;
-	margin-right: 3rem;
-	margin-bottom: 8rem;
+.panel-container {
+	margin:6rem;
 }
 
-#blocks:hover p {
-	color: #333333;
+.panel {
+	margin:5rem;
+	height:15rem;
 }
 
-.img-text {
-	position: absolute;
-	top: 40%;
-	text-align: center;
+.panel p,h1 {
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 6rem;
+	padding-left:10rem;
+}
+
+
+img {
+	margin-right:15px;
+	float:left
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+	#menu {
+		font-size:1.5rem;
+	}
+
+	.content {
+		margin:5rem 10rem;
+	}
+
+	.panel-container {
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+	p {
+		font-size:1.3rem;
+	}
+
+	.content {
+		margin-left:1.5rem;
+		margin-right:1.5rem;
+	}
+
+    #main-title {
+    	font-size: 5rem;
+    	margin-left:0;
+    	margin-right:0;
+    }
+
+    img {
+    	/*display:none;*/
+    	    margin-left: 23%;
+    margin-bottom: 1rem;
+    }
+
+    .panel-container {
+		margin: auto;
+		text-align:center;
+    }
+
+    .panel p,h1{
+    	margin-left:1rem !important;
+    	padding-left:0rem !important;
+    }
+
+    .panel {
+    	margin-top: 7rem;
+    	margin-left: 1rem;
+    	margin-right:1rem;
+    	height:100%;
+    }
+
+    #menu {
+    	font-size:1.2rem;
+    }
+
+	.panel-container{
+		margin:0rem;
+	}
+
 }
